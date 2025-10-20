@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-language" content="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isolamento Acústico em SP | Itex Brasil - Projetos e Laudos</title>
+    <meta name="description" content="Soluções completas em isolamento e tratamento acústico em São Paulo. Projetos para estúdios, empresas e residências. Fale com um especialista e peça seu orçamento.">
+    <meta name="keywords" content="isolamento acústico São Paulo, tratamento acústico SP, laudo acústico São Paulo, acústica para estúdios, ruído de vizinhos SP, consultoria acústica São Paulo">
+    <meta name="author" content="Itex Brasil">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.itexbrasil.com.br/">
+    <meta property="og:title" content="Isolamento Acústico em São Paulo — Projeto Acústico | Itex Brasil">
+    <meta property="og:description" content="Soluções integradas em acústica. Projetos, isolamento sonoro, tratamento e laudo técnico para estúdios, residências e empresas em São Paulo.">
+    <meta property="og:image" content="https://res.cloudinary.com/daqa0nzgf/image/upload/f_auto,q_auto/v1760706019/solucoes-integradas-isolamento-acustico-sao-paulo_phkrxb.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.itexbrasil.com.br/">
+    <meta property="twitter:title" content="Isolamento Acústico em São Paulo — Projeto Acústico | Itex Brasil">
+    <meta property="twitter:description" content="Soluções integradas em acústica. Projetos, isolamento sonoro, tratamento e laudo técnico para estúdios, residências e empresas em São Paulo.">
+    <meta property="twitter:image" content="https://res.cloudinary.com/daqa0nzgf/image/upload/f_auto,q_auto/v1760706019/solucoes-integradas-isolamento-acustico-sao-paulo_phkrxb.png">
+
+    <link rel="canonical" href="https://www.itexbrasil.com.br/">
+    <link rel="sitemap" href="https://www.itexbrasil.com.br/sitemap.xml">
+    <link rel="icon" href="https://i.postimg.cc/TYwK56vv/logotipo-itex-brasil-solu-es-integradas-para-o-segmento-de-ac-stica-em-s-o-paulo-bege-cinzentado.png" type="image/png">
+    <link rel="apple-touch-icon" href="https://i.postimg.cc/TYwK56vv/logotipo-itex-brasil-solu-es-integradas-para-o-segmento-de-ac-stica-em-s-o-paulo-bege-cinzentado.png">
+    <meta name="theme-color" content="#F8FAFC">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
+    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"></noscript>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --color-primary-accent: #A8B545;
+            --color-secondary-accent: #10454f;
+            --color-background-body: #F2F2F2;
+            --color-background-section: #FFFFFF;
+            --color-background-card: #FFFFFF;
+            --color-text-primary: #024554;
+            --color-text-secondary: #53736A;
+            --color-border-light: #C2C0A6;
+            --color-border-error: #ef4444; /* Cor para erros de validação */
+            --header-bg: rgba(248, 250, 252, .85);
+            --header-shadow: rgba(0, 0, 0, .05);
+            --card-shadow: rgba(0, 0, 0, .1);
+            --form-bg: #FFFFFF;
+        }
+
+        /* Prevenção de FOUC */
+        body {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        
+        body.loaded {
+            opacity: 1;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px) }
+            to { opacity: 1; transform: translateY(0) }
+        }
+
+        @keyframes button-float {
+            0%, 100% { transform: translateY(5px) }
+            50% { transform: translateY(-5px) }
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-background-body);
+            color: var(--color-text-primary);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .hero-text-shadow { text-shadow: 0 2px 8px rgba(0, 0, 0, .7) }
+        .accent-text { color: var(--color-primary-accent) }
+        .accent-bg {
+            background-color: var(--color-primary-accent); /* Fallback */
+            background-image: linear-gradient(to top, #9dad3d, #A8B545 50%);
+            color: var(--color-background-body);
+            border-bottom: 3px solid #8e9a3a;
+            transition: all 0.2s ease-in-out;
+        }
+        .accent-bg:active {
+            transform: translateY(2px);
+            border-bottom-width: 1px;
+        }
+        .accent-bg-hover:hover {
+            background-color: #F1F5F9;
+            background-image: none;
+            color: var(--color-secondary-accent);
+            border-bottom-color: var(--color-secondary-accent);
+            box-shadow: 0 8px 20px rgba(16, 69, 79, .2);
+            transform: translateY(-2px);
+        }
+        
+        #contato .accent-text { color: var(--color-primary-accent); }
+        .text-primary { color: var(--color-text-primary) }
+        .text-secondary { color: var(--color-text-secondary) }
+        .bg-section { background-color: var(--color-background-section) }
+        .bg-card { background-color: var(--color-background-card) }
+        .border-light { border-color: var(--color-border-light) }
+        .btn-outline-accent { 
+            border-color: var(--color-primary-accent); 
+            color: var(--color-primary-accent);
+            transition: all 0.2s ease-in-out;
+        }
+        .btn-outline-accent:hover { 
+            background-color: #F1F5F9;
+            color: var(--color-secondary-accent);
+            border-color: var(--color-secondary-accent);
+            box-shadow: 0 8px 20px rgba(16, 69, 79, .2);
+            transform: translateY(-2px);
+        }
+        .nav-link { color: var(--color-text-secondary); transition: color .3s ease, transform .2s ease; display: inline-block; position: relative }
+        .nav-link::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -4px; left: 50%; background-color: var(--color-primary-accent); transition: all .3s ease }
+        .nav-link:hover::after { width: 100%; left: 0 }
+        .nav-link:hover { color: var(--color-primary-accent); transform: translateY(-2px) }
+        .nav-link.nav-active { color: var(--color-primary-accent); font-weight: 700 }
+        .nav-link.nav-active::after { width: 100%; left: 0 }
+        .submenu { opacity: 0; transform: translateY(10px); visibility: hidden; transition: opacity .3s ease, transform .3s ease, visibility .3s; box-shadow: 0 10px 25px rgba(0, 0, 0, .1); background-color: var(--color-background-card); border: 1px solid var(--color-border-light); }
+        .submenu a { color: var(--color-text-secondary); transition: background-color .3s, color .3s }
+        .submenu a:hover { background-color: #f1f5f9; color: var(--color-primary-accent) }
+        .submenu.active { opacity: 1; transform: translateY(0); visibility: visible }
+        .animated-element { opacity: 0; transform: translateY(30px); transition: opacity .8s cubic-bezier(.645, .045, .355, 1), transform .8s cubic-bezier(.645, .045, .355, 1) }
+        .animated-element.is-visible { opacity: 1; transform: translateY(0) }
+        #back-to-top, #whatsapp-button { transition: opacity .4s, transform .4s, background-color .3s }
+        #back-to-top, #whatsapp-button { animation: button-float 3s ease-in-out infinite }
+        .card-hover-effect:not(.flip-card-inner) { transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease; }
+        .card-hover-effect:not(.flip-card-inner):hover { transform: translateY(-8px); box-shadow: 0 12px 24px -5px var(--card-shadow), 0 0 15px rgba(168, 181, 69, 0.2); border-color: var(--color-primary-accent) }
+        
+        .flip-card { background-color: transparent; width: 100%; perspective: 1500px; }
+        .flip-card-inner { width: 100%; height: 100%; transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); transform-style: preserve-3d; display: grid; box-shadow: 0 8px 20px rgba(0,0,0,0.1); border-radius: 0.75rem; }
+        .flip-card-inner.is-flipped { transform: rotateY(180deg) translateZ(20px) scale(1.03); box-shadow: 0 20px 50px rgba(0,0,0,0.25); }
+        .flip-card-front, .flip-card-back { grid-area: 1 / 1; width: 100%; height: 100%; -webkit-backface-visibility: hidden; backface-visibility: hidden; display: flex; flex-direction: column; border-radius: 0.75rem; overflow: hidden; }
+        .flip-card-back { transform: rotateY(180deg); background-color: #024554; color: #FFFFFF; box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.9); }
+        .flip-card-back .text-primary, .flip-card-back .text-secondary { color: #FFFFFF; }
+        .flip-card-back .btn-outline-accent { border-color: #FFFFFF; color: #FFFFFF; }
+        .flip-card-back .btn-outline-accent:hover { background-color: rgba(255, 255, 255, 0.1); color: #FFFFFF; }
+        
+        .logo-grayscale { filter: grayscale(100%) brightness(.8); opacity: .7; transition: all .3s ease; }
+        
+        input, textarea { background-color: var(--form-bg); border-color: var(--color-border-light); color: var(--color-text-primary) }
+        input:focus, textarea:focus, details[open] { box-shadow: 0 0 0 3px rgba(168, 181, 69, .2); border-color: var(--color-primary-accent) }
+        
+        /* Estilos para validação de formulário */
+        .form-input-error { border-color: var(--color-border-error) !important; }
+        .form-input-error:focus { box-shadow: 0 0 0 3px rgba(239, 68, 68, .2) !important; }
+        .error-message { color: var(--color-border-error); font-size: 0.875rem; }
+        #submit-button:disabled { background-color: #9ca3af; cursor: not-allowed; transform: scale(1); box-shadow: none; animation: none; border-bottom: 3px solid #777c83;}
+
+        #header { background-color: var(--header-bg); box-shadow: 0 1px 4px var(--header-shadow); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 999 }
+        #mobile-menu { background-color: var(--color-background-section); border-top: 1px solid #e5e7eb; }
+        #mobile-menu .hover\:bg-gray-800:hover { background-color: #f1f5f9; }
+        #mobile-menu .hover\:bg-gray-700:hover { background-color: #e2e8f0; }
+
+        details { transition: background-color .3s ease }
+        details[open] { background-color: rgba(0, 0, 0, .02) }
+        details>summary { list-style: none; display: flex; justify-content: space-between; align-items: center }
+        details>summary::-webkit-details-marker { display: none }
+        details>summary::after { content: '+'; font-size: 1.5rem; font-weight: 400; color: var(--color-primary-accent); transition: transform .3s ease }
+        details[open]>summary::after { transform: rotate(45deg) }
+        
+        .marquee-container { padding: 1rem 0; overflow: hidden; background-color: var(--color-background-section); border-top: 1px solid var(--color-border-light); border-bottom: 1px solid var(--color-border-light); white-space: nowrap }
+        .marquee-content { display: inline-block; animation: marquee 60s linear infinite; font-size: 1rem; font-weight: 600; color: var(--color-text-secondary); text-transform: uppercase }
+        .marquee-content span { margin: 0 2rem }
+        @keyframes marquee { from { transform: translateX(0) } to { transform: translateX(-50%) } }
+
+        @keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateY(0) } 40% { transform: translateY(-15px) } 60% { transform: translateY(-10px) } }
+        .scroll-down-indicator { animation: bounce 2s infinite }
+        .scroll-down-indicator svg { color: #FFFFFF; }
+
+        .custom-file-upload { border: 2px dashed var(--color-border-light); border-radius: 1rem; padding: 1rem; text-align: center; cursor: pointer; transition: border-color .3s ease, background-color .3s ease }
+        .custom-file-upload:hover { border-color: var(--color-primary-accent); background-color: rgba(0, 0, 0, .02) }
+        .custom-file-upload .text-gray-600 { color: var(--color-text-secondary); }
+        .map-container { border-radius: 1rem; overflow: hidden; border: 1px solid var(--color-border-light) }
+        
+        #inicio .text-primary, #inicio .text-secondary,
+        #solucao-estudios .text-primary, #solucao-estudios .text-secondary,
+        #solucao-corporativo .text-primary, #solucao-corporativo .text-secondary,
+        #solucao-residencial .text-primary, #solucao-residencial .text-secondary { color: #F5F5F5; }
+        
+        #solucao-estudios h3, #solucao-corporativo h3, #solucao-residencial h3 { color: #FFFFFF; }
+        #inicio .btn-outline-accent { border-color: #FFFFFF; color: #FFFFFF; }
+        #inicio .btn-outline-accent:hover { background-color: #FFFFFF; color: var(--color-text-primary); }
+        #inicio .text-gray-500 { color: #D1D5DB; }
+        footer .text-xs { color: #6B7280 !important; }
+    </style>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.itexbrasil.com.br/#website","url":"https://www.itexbrasil.com.br/","name":"Itex Brasil","description":"Itex Brasil — Soluções integradas em acústica em São Paulo: projetos, isolamento, tratamento e laudos.","inLanguage":"pt-BR","potentialAction":{"@type":"SearchAction","target":"https://www.itexbrasil.com.br/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.itexbrasil.com.br/#webpage","url":"https://www.itexbrasil.com.br/","name":"Isolamento Acústico em São Paulo — Itex Brasil","isPartOf":{"@id":"https://www.itexbrasil.com.br/#website"},"description":"Página principal de serviços de isolamento acústico, tratamento acústico e laudos em São Paulo. Atendimento local e visitas técnicas.","inLanguage":"pt-BR"},{"@type":"LocalBusiness","@id":"https://www.itexbrasil.com.br/#localbusiness","name":"Itex Brasil","image":"https://i.postimg.cc/TYwK56vv/logotipo-itex-brasil-solu-es-integradas-para-o-segmento-de-ac-stica-em-s-o-paulo-bege-cinzentado.png","telephone":"+55-11-98234-2858","email":"atendimento@itexbrasil.com.br","address":{"@type":"PostalAddress","streetAddress":"Rua das Jaboticabeiras, 235 - Jardim da Gloria","addressLocality":"Cotia","addressRegion":"SP","postalCode":"06711-520","addressCountry":"BR"},"url":"https://www.itexbrasil.com.br/","sameAs":["https://www.instagram.com/itexbrasil/","https://www.linkedin.com/company/itex-brasil/"],"geo":{"@type":"GeoCoordinates","latitude":-23.53775,"longitude":-46.91898},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"}],"areaServed":{"@type":"AdministrativeArea","name":"São Paulo"}},{"@type":"Service","@id":"https://www.itexbrasil.com.br/#service","name":"Consultoria e Projeto de Isolamento Acústico em São Paulo","description":"Projeto acústico, isolamento sonoro, tratamento acústico e laudo técnico em São Paulo para residências, estúdios e empresas.","provider":{"@id":"https://www.itexbrasil.com.br/#localbusiness"},"serviceType":["Isolamento Acústico","Tratamento Acústico","Laudo Acústico","Projeto para Estúdios"]},{"@type":"FAQPage","@id":"https://www.itexbrasil.com.br/#faqpage","mainEntity":[{"@type":"Question","name":"Quanto custa um isolamento acústico em São Paulo?","acceptedAnswer":{"@type":"Answer","text":"O custo varia conforme a solução (janelas, paredes, lajes). Oferecemos visitas técnicas e orçamento detalhado para São Paulo."}},{"@type":"Question","name":"Vocês emitem laudo técnico (ABNT) na cidade de São Paulo?","acceptedAnswer":{"@type":"Answer","text":"Sim — realizamos medições e emitimos laudos conforme normas ABNT NBR aplicáveis e legislação municipal de SP."}}]}]}</script>
+    
+    <!-- Robozinho Ajudante da Vercel para medir a velocidade do site -->
+    <script src="/_vercel/speed-insights/script.js"></script>
+
+</head>
+<body class="antialiased">
+    <header id="header" class="fixed top-0 left-0 w-full transition-all duration-300" role="banner">
+        <div class="container max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#inicio" aria-label="Itex Brasil - soluções acústicas em São Paulo">
+                <img src="https://res.cloudinary.com/daqa0nzgf/image/upload/f_auto,q_auto/v1760706018/logotipo-itex-brasil-isolamento-acustico-sao-paulo_pbmiq0.png" alt="Logotipo Itex Brasil - Soluções em Acústica em São Paulo" class="h-14 w-auto" width="224" height="56" decoding="async">
+            </a>
+            <div class="flex items-center gap-4">
+                <nav id="nav-menu" class="hidden md:flex items-center space-x-6 lg:space-x-8 font-semibold text-sm tracking-wider" role="navigation" aria-label="Menu principal">
+                    <a href="#inicio" data-navlink="inicio" class="nav-link">INÍCIO</a>
+                    <div class="relative">
+                        <button type="button" data-dropdown-toggle="sobre-menu" class="nav-link flex items-center">SOBRE NÓS<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div id="sobre-menu" class="submenu absolute top-full left-1/2 -translate-x-1/2 mt-2 w-36 rounded-lg py-2 z-50">
+                            <a href="#diferenciais" data-navlink="diferenciais" class="block px-4 py-2 text-sm">Diferenciais</a>
+                            <a href="#parceiros" data-navlink="parceiros" class="block px-4 py-2 text-sm">Parceiros</a>
+                        </div>
+                    </div>
+                    <div class="relative">
+                         <button type="button" data-dropdown-toggle="solucoes-menu" class="nav-link flex items-center cursor-pointer">SOLUÇÕES<svg class="w-4 h-4 ml-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div id="solucoes-menu" class="submenu absolute top-full left-1/2 -translate-x-1/2 mt-2 w-36 rounded-lg py-2 z-50">
+                            <a href="#solucao-estudios" class="block px-4 py-2 text-sm">Estúdios</a>
+                            <a href="#solucao-corporativo" class="block px-4 py-2 text-sm">Corporativo</a>
+                            <a href="#solucao-residencial" class="block px-4 py-2 text-sm">Residencial</a>
+                        </div>
+                    </div>
+                    <a href="#faq" data-navlink="faq" class="nav-link">FAQ</a>
+                </nav>
+                <a href="#contato" class="hidden md:inline-block accent-bg accent-bg-hover font-semibold py-2 px-6 rounded-full text-sm transition-all duration-300 transform hover:scale-105 shadow-md">CONTATO</a>
+                <button id="mobile-menu-button" class="md:hidden text-primary" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mobile-menu"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden border-t" aria-hidden="true">
+            <a href="#inicio" class="mobile-nav-link block py-3 px-6 hover:bg-gray-800">INÍCIO</a>
+            <details class="group">
+                <summary class="flex justify-between items-center py-3 px-6 cursor-pointer"><span>SOBRE NÓS</span><svg class="w-5 h-5 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+                <a href="#diferenciais" class="mobile-nav-link block py-2 pl-10 pr-6 text-sm hover:bg-gray-700">Diferenciais</a>
+                <a href="#parceiros" class="mobile-nav-link block py-2 pl-10 pr-6 text-sm hover:bg-gray-700">Parceiros</a>
+            </details>
+            <details class="group">
+                <summary class="flex justify-between items-center py-3 px-6 cursor-pointer"><span>SOLUÇÕES</span><svg class="w-5 h-5 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+                <a href="#solucao-estudios" class="mobile-nav-link block py-2 pl-10 pr-6 text-sm hover:bg-gray-700">Estúdios</a>
+                <a href="#solucao-corporativo" class="mobile-nav-link block py-2 pl-10 pr-6 text-sm hover:bg-gray-700">Corporativo</a>
+                <a href="#solucao-residencial" class="mobile-nav-link block py-2 pl-10 pr-6 text-sm hover:bg-gray-700">Residencial</a>
+            </details>
+            <a href="#faq" class="mobile-nav-link block py-3 px-6 hover:bg-gray-800">FAQ</a>
+            <a href="#contato" class="mobile-nav-link block py-3 px-6 hover:bg-gray-800">CONTATO</a>
+        </div>
+    </header>
+    <main class="pt-24" role="main">
+        <section id="inicio" data-section="inicio" class="relative py-8 md:py-12" aria-label="Início - Isolamento acústico em São Paulo">
+            <div class="container max-w-7xl mx-auto px-6">
+                <div class="relative rounded-2xl p-8 shadow-xl overflow-hidden min-h-[60vh] flex items-center">
+                    <img src="https://res.cloudinary.com/daqa0nzgf/image/upload/f_auto,q_auto/v1760706019/solucoes-integradas-isolamento-acustico-sao-paulo_phkrxb.png" alt="Painéis acústicos e isolamento sonoro - projeto em São Paulo" class="absolute inset-0 w-full h-full object-cover z-0" width="1920" height="1080" loading="eager" decoding="async" fetchpriority="high">
+                    <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent z-1"></div>
+                    <div class="relative z-10 w-full">
+                        <div class="max-w-2xl animated-element">
+                             <h1 class="text-5xl md:text-6xl font-black text-primary leading-tight tracking-tighter hero-text-shadow">Soluções integradas em <span class="accent-text">acústica</span> e <span class="accent-text">isolamento sonoro</span></h1>
+                            <p class="mt-6 text-xl text-secondary hero-text-shadow">Projetos de alta performance para residências, estúdios e empresas que buscam o conforto acústico ideal.</p>
+                             <div class="mt-8 flex flex-col sm:flex-row gap-4">
+                                <a href="#contato" class="inline-flex items-center gap-3 group accent-bg accent-bg-hover font-bold py-4 px-10 rounded-full text-lg shadow-xl text-center" rel="noopener noreferrer">
+                                    <span>Garanta seu conforto acústico</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                    </svg>
+                                </a>
+                             </div>
+                             <p class="mt-4 text-sm text-gray-500">Visita técnica | Laudo ABNT | Projetos “box-in-box” e soluções otimizadas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bottom-8 left-1/2 -translate-x-1/2">
+                <a href="#diferenciais" aria-label="Rolar para a próxima seção" class="scroll-down-indicator block p-2"><svg class="w-6 h-6 opacity-50 hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+            </div>
+        </section>
+        <section id="diferenciais" data-section="diferenciais" class="py-12 md:py-16 bg-section border-y border-light" aria-label="Diferenciais técnicos da Itex Brasil">
+            <div class="container max-w-7xl mx-auto px-6 animated-element">
+                <div class="text-center mb-16">
+                    <div class="w-24 h-1 mx-auto mb-4" style="background-color:var(--color-primary-accent)"></div>
+                    <h2 class="text-4xl md:text-5xl font-bold text-primary tracking-tighter">Acústica Integrada e Profissional</h2>
+                    <p class="text-lg text-secondary mt-4 max-w-3xl mx-auto">Padrão Acústico de Alta Performance – Unimos expertise profissional com materiais certificados para superar os desafios acústicos de alta complexidade. Seu conforto e a conformidade técnica são nossa prioridade.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <article class="flex flex-col text-left p-8 rounded-xl card-hover-effect bg-card shadow-md border border-light animated-element" style="transition-delay:100ms">
+                        <div class="mb-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" style="color:var(--color-primary-accent)" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+                        <div class="flex-grow">
+                            <h3 class="text-2xl font-bold mb-4 text-primary">Conformidade ABNT e Laudos Técnicos</h3>
+                            <p class="text-secondary"><strong>Laudos Técnicos e Conformidade Legal</strong> Garantimos a <strong>emissão de laudos técnicos</strong> (NBR ABNT e legislação municipal) <strong>obrigatórios</strong> para licenças, processos administrativos e <strong>liberação do seu empreendimento.</strong></p>
+                        </div>
+                        <div class="mt-8"><a href="#contato" class="cta-contextual inline-block border-2 font-semibold py-2 px-6 rounded-md transition-colors duration-300 btn-outline-accent" data-message="Olá! Tenho interesse em solicitar um Laudo Técnico.">Solicitar Laudo Técnico</a></div>
+                    </article>
+                    <article class="flex flex-col text-left p-8 rounded-xl card-hover-effect bg-card shadow-md border border-light animated-element" style="transition-delay:200ms">
+                         <div class="mb-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" style="color:var(--color-primary-accent)" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8 13v-1m4 1v-3m4 3V8M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"/></svg></div>
+                        <div class="flex-grow">
+                            <h3 class="text-2xl font-bold mb-4 text-primary">Tecnologia e Materiais Certificados</h3>
+                            <p class="text-secondary"><strong>Materiais Certificados e Alta Performance.</strong> Aplicamos <strong>tecnologia de ponta</strong> em simulações e medições para garantir a máxima <strong>segurança e desempenho sonoro</strong> do seu projeto. Seu <strong>investimento</strong> é garantido.</p>
+                        </div>
+                        <div class="mt-8"><a href="#solucoes" class="inline-block border-2 font-semibold py-2 px-6 rounded-md transition-colors duration-300 btn-outline-accent">Ver Soluções por Ambiente</a></div>
+                    </article>
+                    <article class="flex flex-col text-left p-8 rounded-xl card-hover-effect bg-card shadow-md border border-light animated-element" style="transition-delay:300ms">
+                        <div class="mb-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" style="color:var(--color-primary-accent)" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg></div>
+                        <div class="flex-grow">
+                            <h3 class="text-2xl font-bold mb-4 text-primary">Projetos Sob Medida</h3>
+                            <p class="text-secondary"><strong>Projetos de Isolamento Acústico Sob Medida. Desenvolvemos soluções personalizadas</strong> (como box-in-box para estúdios ou sistemas de obra seca) para alcançar o <strong>máximo isolamento</strong>, minimizando o impacto e o tempo de obra.</p>
+                        </div>
+                        <div class="mt-8"><a href="#contato" class="cta-contextual inline-block border-2 font-semibold py-2 px-6 rounded-md transition-colors duration-300 btn-outline-accent" data-message="Olá! Gostaria de pedir um orçamento para um projeto sob medida.">Peça um Orçamento</a></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="parceiros" data-section="parceiros" class="py-12 md:py-16 bg-background-body">
+            <div class="container max-w-7xl mx-auto px-6 animated-element">
+                <div class="text-center mb-16">
+                    <div class="w-24 h-1 mx-auto mb-4" style="background-color:var(--color-primary-accent)"></div>
+                    <h2 class="text-4xl md:text-5xl font-bold text-primary tracking-tighter">Nosso Ecossistema de Especialistas</h2>
+                    <p class="text-lg text-secondary mt-4 max-w-3xl mx-auto">Para garantir a excelência em todas as etapas — do projeto à execução — contamos com parceiros estratégicos que são referência e autoridade em suas respectivas áreas de atuação.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="text-center p-8 rounded-xl bg-card border border-light flex flex-col h-full">
+                                    <div class="flex-shrink-0 h-20 mb-6 flex items-center justify-center">
+                                        <img src="https://i.postimg.cc/MGLDNLHH/logotipo-passeri-ac-stica.webp" alt="Logotipo da Passeri Acústica, parceira Itex Brasil" class="max-h-16 w-auto object-contain logo-grayscale" width="200" height="64">
+                                    </div>
+                                    <div class="flex-grow">
+                                        <h3 class="text-2xl font-bold mb-3 text-primary">Passeri Acústica</h3>
+                                        <p class="text-secondary text-lg">Parceiro técnico especializado em projetos, consultorias e laudos de acústica arquitetônica, urbana e de salas.</p>
+                                    </div>
+                                    <div class="mt-auto pt-4">
+                                        <button type="button" class="flip-trigger inline-block border-2 font-semibold py-2 px-6 rounded-md transition-colors duration-300 btn-outline-accent">Saiba Mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="p-8 rounded-xl flex flex-col h-full justify-between">
+                                    <div class="flex-grow flex flex-col justify-center">
+                                        <p class="text-base text-justify leading-relaxed">PASSERI Acústica - Autoridade com +26 Anos de Mercado.
+Escritório com conhecimento técnico, unindo alto nível acadêmico e prática. É referência no desenvolvimento de projetos complexos, consultorias e laudos para teatros, auditórios, salas de concerto, igrejas e estúdios de alta performance.</p>
+                                    </div>
+                                    <div class="mt-auto pt-4 text-center">
+                                        <button type="button" class="flip-trigger inline-block border-2 font-semibold py-2 px-6 rounded-md transition-colors duration-300 btn-outline-accent">Voltar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="text-center p-8 rounded-xl bg-card border border-light flex flex-col h-full">
+                                    <div class="flex-shrink-0 h-20 mb-6 flex items-center justify-center">
+                                        <img src="https://i.postimg.cc/J48QfZry/logotipo-vega-montagens-ac-sticas.webp" alt="Logotipo da Vega Montagens, parceira Itex Brasil" class="max-h-16 w-auto object-contain logo-grayscale" width="200" height="64">
+                                    </div>
+                                    <div class="flex-grow">
+                                        <h3 class="text-2xl font-bold mb-3 text-primary">Vega Montagens</h3>
+                                        <p class="text-secondary text-lg">Responsável pela implementação e montagem de alta precisão dos nossos projetos, garantindo a execução técnica certificada.</p>
+                                    </div>
+                                    <div class="mt-auto pt-4">
+                                        <button type="button" class="flip-trigger inline-block border-2 font-semibold py-2 px-6 rounded-md transition-colors duration-300 btn-outline-accent">Saiba Mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="p-8 rounded-xl flex flex-col h-full justify-between">
+                                    <div class="flex-grow flex flex-col justify-center">
+                                        <p class="text-base text-justify leading-relaxed">Vega Montagens - Execução Certificada para Alta Performance.
+Especializada na execução e montagem de obras de isolamento e condicionamento acústico. Sua equipe qualificada atua em estúdios, auditórios, igrejas, corporativos e residências, garantindo que cada detalhe técnico do projeto seja implementado com precisão e máximo resultado sonoro.</p>
+                                    </div>
+                                    <div class="mt-auto pt-4 text-center">
+                                        <button type="button" class="flip-trigger inline-block border-2 font-semibold py-2 px-6 rounded-md transition-colors duration-300 btn-outline-accent">Voltar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="marquee-container">
+            <div class="marquee-content"><span>PROJETOS SOB MEDIDA</span> • <span>TECNOLOGIA DE PONTA</span> • <span>CONFORMIDADE TÉCNICA</span> • <span>ISOLAMENTO SONORO</span> • <span>TRATAMENTO ACÚSTICO</span> • <span>PROJETOS SOB MEDIDA</span> • <span>TECNOLOGIA DE PONTA</span> • <span>CONFORMIDADE TÉCNICA</span> • <span>ISOLAMENTO SONORO</span> • <span>TRATamento ACÚSTICO</span> •</div>
+        </section>
+        <section id="solucoes" data-section="solucoes" class="py-12 md:py-16 bg-background-body overflow-hidden" aria-label="Nossas Soluções Acústicas">
+            <div class="container max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16 animated-element">
+                    <div class="w-24 h-1 mx-auto mb-4" style="background-color:var(--color-primary-accent)"></div>
+                    <h2 class="text-4xl md:text-5xl font-bold text-primary tracking-tighter">Nossas Soluções em Isolamento e Tratamento Acústico</h2>
+                    <p class="text-lg text-secondary mt-4 max-w-3xl mx-auto">Projetos Completos de Isolamento e Tratamento Acústico. Oferecemos uma jornada integrada, cuidando da concepção técnica e da execução certificada das soluções. Seu conforto está garantido, seja em estúdios, ambientes corporativos ou residências.</p>
+                </div>
+                <div class="space-y-16">
+                    <article id="solucao-estudios" class="relative rounded-2xl shadow-xl overflow-hidden p-8 md:p-12 min-h-[60vh] flex items-center justify-end animated-element">
+                        <img src="https://res.cloudinary.com/daqa0nzgf/image/upload/f_auto,q_auto/v1760706019/tratamento-acustico-para-estudio-de-gravacao-sp_mrvg6k.png" alt="Estúdio de gravação com tratamento acústico e isolamento sonoro" class="absolute inset-0 w-full h-full object-cover object-center z-0" width="1200" height="800" loading="lazy" decoding="async">
+                        <div class="absolute inset-0 bg-gradient-to-l from-black/80 via-black/70 to-transparent z-1"></div>
+                        <div class="relative z-10 w-full flex justify-end">
+                            <div class="max-w-md">
+                                 <h3 class="text-3xl font-bold mb-4 text-white tracking-tighter leading-tight hero-text-shadow">Estúdios: Máxima Precisão Sonora e Isolamento Total</h3>
+                                 <p class="text-secondary mb-6 hero-text-shadow">Projetos acústicos completos: isolamento (box-in-box), tratamento interno (difusores, bass traps) e medições para mixagem e masterização profissionais.</p>
+                                <ul class="space-y-3 mt-4 text-secondary list-disc list-inside hero-text-shadow">
+                                    <li>Isolamento “box-in-box” para máxima redução de transmissão sonora.</li>
+                                    <li>Tratamento acústico para controle de reverberação e reflexões.</li>
+                                    <li>Projetos para home studios em apartamentos e residências com instalação simples e limpa.</li>
+                                </ul>
+                               <a href="#contato" class="mt-8 inline-block accent-bg accent-bg-hover font-bold py-2 px-6 rounded-full text-base transition duration-300 transform hover:scale-105 shadow-lg self-start">Transforme Seu Estúdio HOJE</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="solucao-corporativo" class="relative rounded-2xl shadow-xl overflow-hidden p-8 md:p-12 min-h-[60vh] flex items-center animated-element">
+                        <img src="https://res.cloudinary.com/daqa0nzgf/image/upload/f_auto,q_auto/v1760706019/solucoes-acusticas-para-escritorios-corporativos-sao-paulo_mmxhea.png" alt="Escritório corporativo moderno com soluções acústicas para privacidade e foco" class="absolute inset-0 w-full h-full object-cover z-0" width="1200" height="800" loading="lazy" decoding="async">
+                        <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-transparent z-1"></div>
+                        <div class="relative z-10 w-full flex justify-start">
+                            <div class="max-w-md">
+                                 <h3 class="text-3xl font-bold mb-4 text-white tracking-tighter leading-tight hero-text-shadow">Empresas: Conforto e Produtividade Imediatos</h3>
+                                 <p class="text-secondary mb-6 hero-text-shadow">Controle de ruído e privacidade sonora para escritórios, call centers e salas de reunião. Reduza o estresse e aumente a produtividade da sua equipe com o isolamento perfeito.</p>
+                                <ul class="space-y-3 mt-4 text-secondary list-disc list-inside hero-text-shadow">
+                                    <li>Tratamento de salas de videoconferência.</li>
+                                    <li>Soluções para aumentar a produtividade e privacidade em salas de reunião, auditórios e open spaces.</li>
+                                    <li>Consultoria para projetos corporativos de grande porte.</li>
+                                </ul>
+                                <a href="#contato" class="mt-8 inline-block accent-bg accent-bg-hover font-bold py-2 px-6 rounded-full text-base transition duration-300 transform hover:scale-105 shadow-lg self-start">Agende uma Avaliação Rápida</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="solucao-residencial" class="relative rounded-2xl shadow-xl overflow-hidden p-8 md:p-12 min-h-[60vh] flex items-center justify-end animated-element">
+                        <img src="https://res.cloudinary.com/daqa0nzgf/image/upload/f_auto,q_auto/v1760706018/isolamento-acustico-residencial-em-sao-paulo_d2opbw.png" alt="Sala de estar residencial com isolamento acústico para conforto e silêncio" class="absolute inset-0 w-full h-full object-cover z-0" width="1200" height="800" loading="lazy" decoding="async">
+                        <div class="absolute inset-0 bg-gradient-to-l from-black/80 via-black/70 to-transparent z-1"></div>
+                        <div class="relative z-10 w-full flex justify-end">
+                            <div class="max-w-md">
+                                <h3 class="text-3xl font-bold mb-4 text-white tracking-tighter leading-tight hero-text-shadow">Residências: Paz e Silêncio Garantidos em Casa</h3>
+                                <p class="text-secondary mb-6 hero-text-shadow">Soluções para reduzir ruído de vizinhos, trânsito e impacto de lajes — com alternativas de obras secas para menor transtorno.</p>
+                                <ul class="space-y-3 mt-4 text-secondary list-disc list-inside hero-text-shadow">
+                                    <li>Isolamento de paredes, pisos e forros.</li>
+                                    <li>Tratamento de lajes contra ruído de impacto.</li>
+                                    <li>Janelas acústicas para redução de ruído urbano.</li>
+                                </ul>
+                                <a href="#contato" class="mt-8 inline-block accent-bg accent-bg-hover font-bold py-2 px-6 rounded-full text-base transition duration-300 transform hover:scale-105 shadow-lg self-start">Planejar Conforto Acústico</a>
+                             </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="faq" data-section="faq" class="py-12 md:py-16 bg-section border-y border-light" aria-label="Perguntas Frequentes sobre Acústica">
+            <div class="container max-w-7xl mx-auto px-6 animated-element">
+                <div class="text-center mb-12">
+                     <div class="w-24 h-1 mx-auto mb-4" style="background-color:var(--color-primary-accent)"></div>
+                     <h2 class="text-4xl md:text-5xl font-bold text-primary tracking-tighter">Perguntas Frequentes</h2>
+                </div>
+                <div class="max-w-3xl mx-auto bg-card rounded-xl shadow-xl p-6 md:p-8">
+                    <div class="space-y-4">
+                         <details class="p-4 border border-light rounded-xl card-hover-effect bg-section"><summary class="font-semibold cursor-pointer text-primary">Qual a diferença entre isolamento acústico e tratamento acústico?</summary><p class="mt-4 text-secondary">O <strong>isolamento</strong> evita a transmissão do som entre ambientes (ex.: ruído de vizinhos). O <strong>tratamento</strong> melhora a qualidade sonora interna (reduz ecos e reverberação). Ambos são frequentemente combinados em projetos de alta performance.</p></details>
+                        <details class="p-4 border border-light rounded-xl card-hover-effect bg-section"><summary class="font-semibold cursor-pointer text-primary">Qual é o prazo de execução de um projeto de isolamento acústico?</summary><p class="mt-4 text-secondary">O tempo varia conforme o escopo. Intervenções menores (painéis, janelas) são rápidas, mas obras estruturais exigem um cronograma detalhado. Sempre oferecemos uma visita técnica para estimativa precisa do prazo.</p></details>
+                        <details class="p-4 border border-light rounded-xl card-hover-effect bg-section"><summary class="font-semibold cursor-pointer text-primary">Vocês emitem laudos técnicos para a prefeitura?</summary><p class="mt-4 text-secondary">Sim. Coordenamos a medição conforme as normas ABNT e a emissão de laudos e relatórios técnicos com nossos parceiros, válidos para processos junto a órgãos municipais em todo o Brasil.</p></details>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" data-section="contato" class="py-12 md:py-16 bg-section border-y border-light" aria-label="Contato e Orçamento">
+             <div class="container max-w-7xl mx-auto px-6 animated-element">
+                 <header class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold tracking-tighter accent-text">Pronto para garantir o Seu Conforto Acústico?</h2>
+                    <p class="text-lg text-secondary mt-4 max-w-3xl mx-auto">Não perca mais tempo! Se você tem uma dúvida, precisa de um orçamento ou já tem um projeto pronto, fale agora mesmo com nossa equipe pelo WhatsApp.</p>
+                    <a href="https://wa.me/5511982342858?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20isolamento%20ac%C3%BAstico." target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center gap-4 accent-bg accent-bg-hover font-bold py-4 px-10 rounded-full text-xl shadow-xl"><svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.269.654 4.438 1.873 6.262l-1.189 4.344 4.498-1.182z"/></svg><span>Chame no WhatsApp Agora!</span></a>
+                </header>
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-card p-6 rounded-xl shadow-xl border border-light flex flex-col">
+                        <h3 class="text-3xl font-bold text-primary mb-2">Ou envie sua Mensagem</h3>
+                        <form id="contact-form" novalidate aria-label="Formulário de contato para orçamento" class="flex flex-col flex-grow">
+                            <input type="hidden" name="_subject" value="Novo Contato - Site Itex Brasil"><input type="hidden" name="_next" value="https://www.itexbrasil.com.br/obrigado">
+                            <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem e agradecemos o seu contato! Nossa equipe de especialistas irá analisar sua solicitação e retornará o mais breve possível. Atenciosamente, Equipe Itex Brasil.">
+                            <div id="form-content" class="flex flex-col flex-grow">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-2">
+                                     <div>
+                                        <label for="name" class="block mb-2 text-sm font-semibold text-secondary">Nome Completo</label>
+                                        <input type="text" id="name" name="name" class="block w-full p-3 border rounded-lg" required minlength="2" placeholder="Seu nome">
+                                        <div id="name-error" class="error-message mt-1"></div>
+                                    </div>
+                                    <div>
+                                        <label for="email" class="block mb-2 text-sm font-semibold text-secondary">Seu Melhor E-mail</label>
+                                        <input type="email" id="email" name="email" class="block w-full p-3 border rounded-lg" required placeholder="seu@email.com">
+                                        <div id="email-error" class="error-message mt-1"></div>
+                                    </div>
+                                </div>
+                                 <div class="mb-2">
+                                    <label for="message" class="block mb-2 text-sm font-semibold text-secondary">Descreva sua necessidade</label>
+                                    <textarea id="message" name="message" rows="3" class="block w-full p-3 border rounded-lg" placeholder="Ex: Gostaria de um orçamento para isolamento de um apartamento..." required minlength="10"></textarea>
+                                    <div id="message-error" class="error-message mt-1"></div>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="file-upload" class="custom-file-upload block"><p class="text-sm font-semibold text-primary mb-2">Anexar Projeto (Opcional)</p><svg class="w-8 h-8 mx-auto mb-1 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-4-4V7a4 4 0 014-4h.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V16a4 4 0 01-4 4H7z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h-4v6h4V10z"></path></svg><span class="font-semibold accent-text">Anexar projeto (PDF/DWG/JPG)</span><p class="text-xs text-gray-600 mt-1">Máx 5MB</p></label>
+                                    <input id="file-upload" name="attachment" type="file" class="hidden" accept=".pdf,.dwg,.jpg,.jpeg,.png">
+                                    <p id="file-name-display" class="text-center text-sm mt-2 text-gray-500"></p>
+                                 </div>
+                                 <div class="text-center mt-auto">
+                                    <button type="submit" id="submit-button" class="w-full md:w-auto inline-flex items-center justify-center gap-3 accent-bg accent-bg-hover text-on-accent font-bold py-3 px-10 rounded-full text-lg transition duration-300 shadow-lg" disabled>
+                                        <span>Enviar Mensagem</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="feedback-message" class="hidden text-center p-4 mt-4 rounded-md"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-section" role="contentinfo">
+        <div class="container max-w-7xl mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+                <div class="mb-6 md:mb-0">
+                    <div class="w-[224px] mx-auto md:mx-0">
+                        <img src="https://res.cloudinary.com/daqa0nzgf/image/upload/f_auto,q_auto/v1760706018/logotipo-itex-brasil-isolamento-acustico-sao-paulo_pbmiq0.png" alt="Logotipo Itex Brasil rodapé" class="h-14 w-auto" width="224" height="56" decoding="async">
+                        <p class="mt-3 text-xs">Soluções integradas para o segmento de acústica.</p>
+                    </div>
+                </div>
+                <div>
+                     <h3 class="text-primary text-base font-semibold mb-3">Navegação</h3>
+                    <ul class="space-y-2 text-secondary text-sm">
+                        <li><a href="#inicio" class="hover:text-primary transition-colors">Início</a></li>
+                        <li><a href="#diferenciais" class="hover:text-primary transition-colors">Diferenciais</a></li>
+                         <li><a href="#solucoes" class="hover:text-primary transition-colors">Soluções</a></li>
+                        <li><a href="#faq" class="hover:text-primary transition-colors">FAQ</a></li>
+                        <li><a href="#contato" class="hover:text-primary transition-colors">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-primary text-base font-semibold mb-3">Contato</h3>
+                    <ul class="space-y-2 text-secondary text-sm">
+                        <li><a href="mailto:atendimento@itexbrasil.com.br" class="hover:text-primary">atendimento@itexbrasil.com.br</a></li>
+                        <li><a href="tel:+5511982342858" class="hover:text-primary">+55 11 98234-2858</a></li>
+                        <li><span>CNPJ: 15.381.343/0001-10</span></li>
+                         <li><span>Seg–Sex: 09:00–18:00</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-primary text-base font-semibold mb-3">Localização</h3>
+                     <p class="text-secondary text-sm mb-3">Rua das Jaboticabeiras, 235 — Jd. da Glória, Cotia - SP.</p>
+                    <div class="map-container rounded-md shadow-lg">
+                         <iframe id="map-iframe-footer" src="about:blank" width="100%" height="120" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de localização da Itex Brasil"></iframe>
+                    </div>
+                </div>
+            </div>
+             <div class="mt-12 pt-8 border-t border-light text-center"><p class="text-xs text-secondary">© <span id="current-year"></span> Itex Brasil | Soluções Integradas em Acústica e Isolamento Sonoro. Todos os direitos reservados.</p></div>
+        </div>
+    </footer>
+    <a href="https://wa.me/5511982342858?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20isolamento%20ac%C3%BAstico." rel="noopener noreferrer" target="_blank" id="whatsapp-button" class="fixed bottom-8 left-8 text-white p-3 rounded-full shadow-lg opacity-0 transform translate-y-4 hover:scale-110 accent-bg-hover" style="background-color:var(--color-primary-accent)" aria-label="Contatar via WhatsApp"><svg class="w-8 h-8" fill="var(--color-background-body)" viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.269.654 4.438 1.873 6.262l-1.189 4.344 4.498-1.182z"/></svg></a>
+    <a href="#inicio" id="back-to-top" class="fixed bottom-8 right-8 text-white p-3 rounded-full shadow-lg opacity-0 transform translate-y-4 accent-bg-hover" style="background-color:var(--color-primary-accent)" aria-label="Voltar ao topo"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg></a>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Prevenção de FOUC
+            window.addEventListener('load', () => {
+                document.body.classList.add('loaded');
+            });
+
+            const initNavigation = () => {
+                const mobileMenuButton = document.getElementById('mobile-menu-button');
+                const mobileMenu = document.getElementById('mobile-menu');
+                const backToTopButton = document.getElementById('back-to-top');
+                const whatsappButton = document.getElementById('whatsapp-button');
+                const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+                const dropdownToggles = document.querySelectorAll('[data-dropdown-toggle]');
+
+                const toggleMobileMenu = () => {
+                    const isHidden = mobileMenu.classList.toggle('hidden');
+                    mobileMenuButton.setAttribute('aria-expanded', !isHidden);
+                    if (!isHidden) mobileMenu.querySelector('a, button')?.focus();
+                };
+
+                mobileMenuButton?.addEventListener('click', toggleMobileMenu);
+                mobileNavLinks.forEach(link => link.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+
+                window.addEventListener('scroll', () => {
+                    const show = window.scrollY > 100;
+                    [backToTopButton, whatsappButton].forEach(btn => {
+                        if (btn) {
+                            btn.classList.toggle('opacity-0', !show);
+                            btn.classList.toggle('translate-y-4', !show);
+                        }
+                    });
+                }, { passive: true });
+                
+                const closeAllDropdowns = (exceptMenu = null) => {
+                    document.querySelectorAll('.submenu.active').forEach(submenu => {
+                        if (submenu !== exceptMenu) submenu.classList.remove('active');
+                    });
+                };
+
+                dropdownToggles.forEach(toggle => {
+                    toggle.addEventListener('click', event => {
+                        event.stopPropagation();
+                        const targetMenu = document.getElementById(toggle.getAttribute('data-dropdown-toggle'));
+                        if (targetMenu) {
+                            closeAllDropdowns(targetMenu);
+                            targetMenu.classList.toggle('active');
+                        }
+                    });
+                });
+                
+                document.addEventListener('click', () => closeAllDropdowns());
+            };
+
+            const initAnimations = () => {
+                const animationObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('is-visible');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.1 });
+                document.querySelectorAll('.animated-element').forEach(el => animationObserver.observe(el));
+
+                const navObserver = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const sectionId = entry.target.dataset.section;
+                            document.querySelectorAll('a[data-navlink]').forEach(navLink => {
+                                navLink.classList.toggle('nav-active', navLink.dataset.navlink === sectionId);
+                            });
+                        }
+                    });
+                }, { rootMargin: '-40% 0px -60% 0px' });
+                document.querySelectorAll('section[data-section]').forEach(section => navObserver.observe(section));
+            };
+            
+            const initInteractions = () => {
+                document.querySelectorAll('.flip-trigger').forEach(button => {
+                    button.addEventListener('click', (e) => e.currentTarget.closest('.flip-card-inner')?.classList.toggle('is-flipped'));
+                });
+            };
+
+            const lazyLoadMap = () => {
+                const mapIframe = document.getElementById('map-iframe-footer');
+                if (!mapIframe) return;
+
+                const mapObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            mapIframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.854946355325!2d-46.9189873248888!3d-23.537759860959194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf01e4a3c10a35%3A0x6a5e135b3d32847a!2sR.%20das%20Jaboticabeiras%2C%20235%20-%20Jardim%20da%20Gloria%2C%20Cotia%20-%20SP%2C%2006711-520!5e0!3m2!1spt-BR!2sbr";
+                            observer.unobserve(mapIframe);
+                        }
+                    });
+                }, { rootMargin: '200px' });
+                mapObserver.observe(mapIframe);
+            };
+
+            const initContactForm = () => {
+                const form = document.getElementById('contact-form');
+                if (!form) return;
+
+                const nameInput = document.getElementById('name');
+                const emailInput = document.getElementById('email');
+                const messageInput = document.getElementById('message');
+                const submitButton = document.getElementById('submit-button');
+                const feedbackMessage = document.getElementById('feedback-message');
+                const fileUpload = document.getElementById('file-upload');
+                const fileNameDisplay = document.getElementById('file-name-display');
+
+                const fields = {
+                    name: { el: nameInput, min: 2, msg: 'Nome muito curto.' },
+                    email: { el: emailInput, regex: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, msg: 'E-mail inválido.' },
+                    message: { el: messageInput, min: 10, msg: 'Mensagem muito curta.' }
+                };
+                
+                // Função para verificar se o formulário inteiro está preenchido e válido
+                const isFormComplete = () => {
+                    return Object.keys(fields).every(key => {
+                        const field = fields[key];
+                        const value = field.el.value.trim();
+                        if (value === '') return false;
+                        if (field.min && value.length < field.min) return false;
+                        if (field.regex && !field.regex.test(value)) return false;
+                        return true;
+                    });
+                };
+
+                // Função para validar um campo individualmente e mostrar/ocultar o erro
+                const liveValidateField = (fieldKey) => {
+                    const field = fields[key];
+                    const errorEl = document.getElementById(`${fieldKey}-error`);
+                    const value = field.el.value.trim();
+
+                    if (!errorEl) return;
+
+                    // Se o campo estiver vazio, limpa qualquer erro e estilo.
+                    if (value === '') {
+                        errorEl.textContent = '';
+                        field.el.classList.remove('form-input-error');
+                        return;
+                    }
+
+                    // Se não estiver vazio, executa a validação
+                    let isValid = true;
+                    if (field.min && value.length < field.min) isValid = false;
+                    else if (field.regex && !field.regex.test(value)) isValid = false;
+                    
+                    errorEl.textContent = isValid ? '' : field.msg;
+                    field.el.classList.toggle('form-input-error', !isValid);
+                };
+
+                // Adiciona os listeners de 'input' para cada campo
+                Object.keys(fields).forEach(key => {
+                    if (fields[key].el) {
+                        fields[key].el.addEventListener('input', () => {
+                            liveValidateField(key);
+                            const isComplete = isFormComplete();
+                            submitButton.disabled = !isComplete;
+                        });
+                    }
+                });
+                
+                if (fileUpload) {
+                    fileUpload.addEventListener('change', (e) => {
+                        const file = e.target.files[0];
+                        if (fileNameDisplay) {
+                            fileNameDisplay.textContent = file ? (file.name.length > 30 ? `${file.name.substring(0, 27)}...` : file.name) : '';
+                        }
+                    });
+                }
+
+                form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    
+                    // Força a validação de todos os campos ao submeter
+                    const isFormValidOnSubmit = Object.keys(fields).every(key => {
+                        const field = fields[key];
+                        const errorEl = document.getElementById(`${key}-error`);
+                        const value = field.el.value.trim();
+                        let isValid = true;
+                        let errorMessage = '';
+
+                        if (!field.el) return true; // Pula campos que não existem
+
+                        if (value === '') {
+                           isValid = false;
+                           errorMessage = 'Este campo é obrigatório.';
+                        } else if (field.min && value.length < field.min) {
+                            isValid = false;
+                            errorMessage = field.msg;
+                        } else if (field.regex && !field.regex.test(value)) {
+                            isValid = false;
+                            errorMessage = field.msg;
+                        }
+                        
+                        if(errorEl) errorEl.textContent = errorMessage;
+                        field.el.classList.toggle('form-input-error', !isValid);
+                        return isValid;
+                   });
+
+                    if (!isFormValidOnSubmit) return;
+
+                    submitButton.textContent = 'Enviando...';
+                    submitButton.disabled = true;
+
+                    const formData = new FormData(form);
+                    try {
+                        const response = await fetch('https://formsubmit.co/ajax/atendimento@itexbrasil.com.br', {
+                            method: 'POST',
+                            body: formData,
+                            headers: { 'Accept': 'application/json' }
+                        });
+                        
+                        if (!response.ok) throw new Error('Falha na rede.');
+                        
+                        feedbackMessage.textContent = 'Mensagem enviada com sucesso! Entraremos em contato em breve.';
+                        feedbackMessage.classList.remove('hidden', 'bg-red-100', 'text-red-800');
+                        feedbackMessage.classList.add('bg-green-100', 'text-green-800');
+                        form.reset();
+                        if (fileNameDisplay) fileNameDisplay.textContent = '';
+                        submitButton.disabled = true; // Mantém desabilitado após envio
+                    } catch (error) {
+                        feedbackMessage.textContent = 'Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente ou use o WhatsApp.';
+                        feedbackMessage.classList.remove('hidden', 'bg-green-100', 'text-green-800');
+                        feedbackMessage.classList.add('bg-red-100', 'text-red-800');
+                        submitButton.disabled = false; // Habilita novamente em caso de erro
+                    } finally {
+                        submitButton.textContent = 'Enviar Mensagem';
+                    }
+                });
+            };
+
+            const initContextualCTAs = () => {
+                const contextualButtons = document.querySelectorAll('.cta-contextual');
+                const contactSection = document.getElementById('contato');
+                const messageInput = document.getElementById('message');
+
+                if (!contextualButtons.length || !contactSection || !messageInput) return;
+
+                contextualButtons.forEach(button => {
+                    button.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const message = button.dataset.message;
+                        if (message) {
+                            messageInput.value = message;
+                            messageInput.dispatchEvent(new Event('input', { bubbles: true }));
+                        }
+                        contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        messageInput.focus();
+                    });
+                });
+            };
+
+            const updateYear = () => {
+                const yearSpan = document.getElementById('current-year');
+                if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+            };
+
+            // Inicialização de todos os módulos
+            initNavigation();
+            initAnimations();
+            initInteractions();
+            initContactForm();
+            initContextualCTAs(); // Nova função para CTAs inteligentes
+            lazyLoadMap();
+            updateYear();
+        });
+    </script>
+</body>
+</html>
